@@ -10,6 +10,12 @@ This paper: [Advancing Code Obfuscation: Novel Opaque Predicate Techniques to Co
 <img width="1137" height="952" alt="image" src="https://github.com/user-attachments/assets/cf4290f3-a180-4a9c-9cc8-aa19d62b4c33" /><br>
 <img width="1002" height="975" alt="image" src="https://github.com/user-attachments/assets/ecbdc1e5-24df-4548-900e-549bdcfbac99" /><br>
 
+## Annotations
+```c
+__attribute__((annotate("obfus")))
+``` 
+* Marks your function for the pass
+
 ## How To Build
 * Download [LLVM 19.1](https://github.com/llvm/llvm-project/releases/tag/llvmorg-19.1.0)
 * Download [VCPKG](https://github.com/microsoft/vcpkg)
